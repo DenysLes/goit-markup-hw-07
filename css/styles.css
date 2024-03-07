@@ -348,7 +348,7 @@ path {
 
 /* Hero form */
 
-.modal-form {
+.form {
   margin-right: auto;
   margin-left: auto;
   padding-top: 40px;
@@ -363,7 +363,7 @@ path {
   background: #fff;
 }
 
-.hero-form-titel {
+.form__form-titel {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -380,7 +380,7 @@ path {
   text-align: center;
   color: var(--main-text-color);
 }
-.hero-label {
+.form__label {
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 12px;
@@ -390,7 +390,7 @@ path {
 
 /* ===================== */
 
-.hero-input-blok {
+.form__input-blok {
   position: relative;
 
   margin-bottom: 10px;
@@ -398,7 +398,7 @@ path {
   height: 58px;
 }
 
-.hero-input {
+.form__input {
   outline: none;
   width: 100%;
   padding: 11px 0;
@@ -408,15 +408,15 @@ path {
   border-radius: 4px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.hero-input:hover + .hero-icon,
-.hero-input:focus + .hero-icon {
+.form__input:hover + .form__icon,
+.form__input:focus + .form__icon {
   fill: var(--accent-color);
 }
-.hero-input:focus {
+.form__input:focus {
   border-color: var(--accent-color);
 }
 
-.hero-icon {
+.form__icon {
   position: absolute;
   top: 34px;
   left: 12px;
@@ -424,7 +424,7 @@ path {
 }
 
 /* ======================== */
-.hero-textarea-blok {
+.form__textarea-blok {
   margin-right: auto;
   margin-left: auto;
   /* margin-bottom: 20px; */
@@ -433,7 +433,7 @@ path {
 
   margin-bottom: 20px;
 }
-.hero-textarea {
+.form__textarea {
   outline: none;
   display: block;
   padding: 12px 16px;
@@ -446,17 +446,17 @@ path {
   /* margin-bottom: 20px; */
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.hero-textarea:focus {
+.form__textarea:focus {
   border-color: var(--accent-color);
 }
-.textarea-label {
+.form__textarea-label {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
   letter-spacing: 0.01em;
   color: #757575;
 }
-.hero-textarea::placeholder {
+.form__textarea::placeholder {
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 12px;
@@ -465,7 +465,7 @@ path {
 }
 /* ++++++++++++++++++++++++++ */
 
-.hero-checkbox-input {
+.form__checkbox-input {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -478,7 +478,7 @@ path {
   /* appearance: none;
   position: absolute; */
 }
-.hero-checkbox-label {
+.form__checkbox-label {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -493,16 +493,16 @@ path {
   margin-bottom: 20px;
 }
 
-.hero-checkbox-label-text {
+.form__checkbox-label-text {
   margin-left: 7px;
 }
-.hero-checkbox-accent {
+.form__checkbox-accent {
   margin-left: 4px;
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: var(--accent-color);
 }
-.hero-checkbox-icon {
+.form__checkbox-icon {
   display: flex;
   align-items: center;
 
@@ -518,17 +518,17 @@ path {
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.hero-checkbox-input:checked + .hero-checkbox-icon {
+.form__checkbox-input:checked + .form__checkbox-icon {
   border-color: var(--accent-color);
   background-color: var(--accent-color);
 }
 
-.hero-checkbox-input:focus + .hero-checkbox-icon {
+.form__checkbox-input:focus + .form__checkbox-icon {
   border-color: var(--accent-color);
 }
 
 /* +_+_+_+_++_+_++_+_++_+__++ */
-.hero-form-button {
+.form__button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -553,8 +553,8 @@ path {
 
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.hero-form-button:hover,
-.hero-form-button:focus {
+.form__button:hover,
+.form__button:focus {
   background-color: #188ce8;
   /* outline: none; */
 }
