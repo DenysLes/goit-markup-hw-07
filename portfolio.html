@@ -25,6 +25,8 @@
 
   </head>
   <body>
+
+    <!-- Portfolio header -->
     <header class="header">
 <div class="container header-container">
        <a class="portfolio-logo" href="./index.html"
@@ -33,28 +35,28 @@
 
       <nav class="navigation">
      
-        <ul class="portfolio-links-list list">
-          <li class="portfolio-nav-link">
-            <a class="portfolio-header-link" href="./index.html">Студія</a></li>
-          <li class="portfolio-nav-link">
-            <a class="portfolio-header-link-accent" href="./portfolio.html"
+        <ul class="navigation__portfolio-links-list list">
+          <li class="navigation__portfolio-nav-link">
+            <a class="navigation__portfolio-header-link" href="./index.html">Студія</a></li>
+          <li class="navigation__portfolio-nav-link">
+            <a class="navigation__portfolio-header-link--accent" href="./portfolio.html"
               >Портфоліо</a
             >
           </li>
-          <li class="portfolio-nav-link">
-            <a class="portfolio-header-link " href="#">Контакти</a></li>
+          <li class="navigation__portfolio-nav-link">
+            <a class="navigation__portfolio-header-link " href="#">Контакти</a></li>
         </ul>
       </nav>
 
-      <ul class="header-list-contact">
-        <li  class="group-link">
+      <ul class="header__list-contact">
+        <li  class="header__group-link">
     
-          <a class="header-link-mail header-link " href="mailto:info@devstudio.com"
+          <a class="header__link-mail header-link " href="mailto:info@devstudio.com"
           target="_blank"
           rel="noopener no-referrer"
           aria-label="іконка mail">
 
-<svg class="header-icon icon-group" width="16"  height="12">
+<svg class="header__icon icon-group" width="16"  height="12">
   <use href="./images/sprite2.svg#icon-e-mail"></use>
 </svg>
             info@devstudio.com</a>
@@ -62,13 +64,13 @@
         </li>
 
 
-        <li class="group-link">
+        <li class="header__group-link">
     
-          <a class="header-link-phone header-link " href="tel:+380961111111"
+          <a class="header__link-phone header-link " href="tel:+380961111111"
           target="_blank"
           rel="noopener no-referrer"
           aria-label="іконка phone">
-          <svg class="header-icon icon-group" width="10" height="16">
+          <svg class="header__icon icon-group" width="10" height="16">
             <use href="./images/sprite2.svg#icon-smartphone"></use>
           </svg>
             +38 (096) 111-11-11</a>
@@ -79,127 +81,129 @@
     </header>
     <!-- Main content -->
     <main>
-      <section class="portfolio-section">
+      <section class="portfolio">
   <div class=" portfolio-container container">
         <!-- List filters -->
-        <ul class="filters-list">
-          <li class="filter-items">
-            <button class="filters-items-button-accent" type="button" href="#"></a
+        <div class="filter">
+        <ul class="filter__list">
+          <li class="filter__item">
+            <button class="filter-button--accent" type="button" href="#"></a
             >Усі
           </li>
-          <li class="filter-items">
-            <button class="filters-items-button" type="button" href="#"></a>Веб-сайти
+          <li class="filter__item">
+            <button class="filter-button" type="button" href="#"></a>Веб-сайти
           </li>
-          <li class="filter-items">
-            <button class="filters-items-button" type="button" href="#"></a>Додатки
+          <li class="filter__item">
+            <button class="filter-button" type="button" href="#"></a>Додатки
           </li>
-          <li class="filter-items">
-            <button class="filters-items-button" type="button" href="#"></a>Дизайн
+          <li class="filter__item">
+            <button class="filter-button" type="button" href="#"></a>Дизайн
           </li>
-          <li class="filter-items">
-            <button class="filters-items-button" type="button" href="#"></a>Маркетинг
+          <li class="filter__item">
+            <button class="filter-button" type="button" href="#"></a>Маркетинг
           </li>
         </ul>
+        </div>
 <!-- List items -->
-
-        <ul class="portfolio-items-list list">
-               <li class="portfolio-item">
-            <a class="portfolio-item-link" href="#">
-               <div class="description-blok">
-            <img  class="portfoli-image"
+<div class="portfolio-card">
+        <ul class="portfolio-card__items-list list">
+               <li class="portfolio-card__item">
+            <a class="portfolio-card__item-link" href="#">
+               <div class="portfolio-card__description-blok">
+            <img  class="portfolio-card__image"
              src="./images/portfolio/Технокряк.jpg" alt="Технокряк" />
-              <div class="description">
-                <p class="description-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+              <div class="portfolio-card__description">
+                <p class="portfolio-card__description-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
              </div>
              </div>
-             <div class="portfolio-item-title">
-            <h3 class="portfolio-product-name">Технокряк</h3>
-            <p class="portfolio-product">Веб-сайт</p>
+             <div class="portfolio-card__item-title">
+            <h3 class="portfolio-card__product-name">Технокряк</h3>
+            <p class="portfolio-card__product">Веб-сайт</p>
              </div>
           </a>
     
         </li>
 
-        <li class="portfolio-item">
-        <a class="portfolio-item-link" href="#">
-              <div class="description-blok">
-              <img class="portfoli-image"
+        <li class="portfolio-card__item">
+        <a class="portfolio-card__item-link" href="#">
+              <div class="portfolio-card__description-blok">
+              <img class="portfolio-card__image"
               src="./images/portfolio/ПостерGoldenOrleanvsGoldenStar.jpg"
               alt="Постер New Orlean vs Golden Star" />
-             <div class="description">
-                <p class="description-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+             <div class="portfolio-card__description">
+                <p class="portfolio-card__description-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
              </div>
              </div>
-          <div class="portfolio-item-title">
-          <h3 class="portfolio-product-name">Постер New Orlean vs Golden Star</h3>
-           <p class="portfolio-product">Дизайн</p>
+          <div class="portfolio-card__item-title">
+          <h3 class="portfolio-card__product-name">Постер New Orlean vs Golden Star</h3>
+           <p class="portfolio-card__product">Дизайн</p>
            </div>
         </a>
 
         </li>
 
-          <li class="portfolio-item">
-          <a class="portfolio-item-link" href="#">
-             <div class="description-blok">
-            <img class="portfoli-image"
+          <li class="portfolio-card__item">
+          <a class="portfolio-card__item-link" href="#">
+             <div class="portfolio-card__description-blok">
+            <img class=portfolio-card__image"
               src="./images/portfolio/РесторанSeafood.jpg"
               alt="Ресторан Seafood"/>
-              <div class="description">
-                <p class="description-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+              <div class="portfolio-card__description">
+                <p class="portfolio-card__description-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
              </div>
              </div>
-              <div class="portfolio-item-title">
-             <h3 class="portfolio-product-name">Ресторан Seafood</h3>
-            <p class="portfolio-product">Додаток</p>
+              <div class="portfolio-card__item-title">
+             <h3 class="portfolio-card__product-name">Ресторан Seafood</h3>
+            <p class="portfolio-card__product">Додаток</p>
          </div>
           </a>
  
           </li>
 
-          <li class="portfolio-item">
-            <a class="portfolio-item-link" href="#">
-              <div class="description-blok">
-            <img class="portfoli-image"
+          <li class="portfolio-card__item">
+            <a class="portfolio-card__item-link" href="#">
+              <div class="portfolio-card__description-blok">
+            <img class="portfolio-card__image"
             src="./images/portfolio/ПроектPrime.jpg" alt="Проєкт Prime" />
-             <div class="description">
-                <p class="description-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+             <div class="portfolio-card__description">
+                <p class="portfolio-card__description-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
              </div>
              </div>
-           <div class="portfolio-item-title">
-              <h3 class="portfolio-product-name">Проєкт Prime</h3>
-            <p class="portfolio-product">Маркетинг</p>
+           <div class="portfolio-card__item-title">
+              <h3 class="portfolio-card__product-name">Проєкт Prime</h3>
+            <p class="portfolio-card__product">Маркетинг</p>
            </div>
            </a>
     
           </li>
           
-          <li class="portfolio-item">
+          <li class="portfolio-card__item">
     
-            <a class="portfolio-item-link" href="#">
-              <div class="description-blok">
-            <img class="portfoli-image"
+            <a class="portfolio-card__item-link" href="#">
+              <div class="portfolio-card__description-blok">
+            <img class=portfolio-card__image"
             src="./images/portfolio/ПроєктBoxes.jpg" alt="Проєкт Boxes" />
-             <div class="description">
-                <p class="description-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+             <div class="portfolio-card__description">
+                <p class="portfolio-card__description-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
              </div>
              </div>
-            <div class="portfolio-item-title">
-            <h3 class="portfolio-product-name">Проєкт Boxes</h3>
-            <p class="portfolio-product">Додаток</p>
+            <div class="portfolio-card__item-title">
+            <h3 class="portfolio-card__product-name">Проєкт Boxes</h3>
+            <p class="portfolio-card__product">Додаток</p>
             </div>
           </a>
    
           </li>
 
-          <li class="portfolio-item">
+          <li class="portfolio-card__item">
          
-            <a class="portfolio-item-link" href="#">
-              <div class="description-blok">
-            <img class="portfoli-image"
+            <a class="portfolio-card__item-link" href="#">
+              <div class="portfolio-card__description-blok">
+            <img class="portfolio-card__image"
               src="./images/portfolio/InspirationhasnoBorders.jpg"
               alt="Inspiration has no Borders"/>
-              <div class="description">
-                <p class="description-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+              <div class="portfolio-card__description">
+                <p class="portfolio-card__description-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
              </div>
              </div>
              <div class="portfolio-item-title">
@@ -209,57 +213,57 @@
           </a>
     
           </li>
-          <li class="portfolio-item">
+          <li class="portfolio-card__item">
    
-            <a class="portfolio-item-link" href="#">
-              <div class="description-blok">
-            <img class="portfoli-image"
+            <a class="portfolio-card__item-link" href="#">
+              <div class="portfolio-card__description-blok">
+            <img class=portfolio-card__image"
               src="./images/portfolio/ВиданняLimitedEdition.jpg"
               alt="Видання Limited Edition"/>
-             <div class="description">
-                <p class="description-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+             <div class="portfolio-card__description">
+                <p class="portfolio-card__description-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
              </div>
              </div>
-             <div class="portfolio-item-title">
-            <h3 class="portfolio-product-name">Видання Limited Edition</h3>
-            <p class="portfolio-product">Дизайн</p>
+             <div class="portfolio-card__item-title">
+            <h3 class="portfolio-card__product-name">Видання Limited Edition</h3>
+            <p class="portfolio-card__product">Дизайн</p>
             </div>
           </a>
     
           </li>
 
-          <li class="portfolio-item">
+          <li class="portfolio-card__item">
 
-            <a  class="portfolio-item-link" href="#">
-              <div class="description-blok">
-            <img class="portfoli-image" 
+            <a  class="portfolio-card__item-link" href="#">
+              <div class="portfolio-card__description-blok">
+            <img class="portfolio-card__image" 
             src="./images/portfolio/ПроєктLAB.jpg" alt="Проєкт LAB"/>
-            <div class="description">
-                <p class="description-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+            <div class="portfolio-card__description">
+                <p class="portfolio-card__description-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
             </div>
             </div>
-          <div class="portfolio-item-title">
-          <h3 class="portfolio-product-name">Проєкт LAB</h3>
-            <p class="portfolio-product">Маркетинг</p>
+          <div class="portfolio-card__item-title">
+          <h3 class="portfolio-card__product-name">Проєкт LAB</h3>
+            <p class="portfolio-card__product">Маркетинг</p>
            </div>
            </a> 
 
         </li>
 
-          <li class="portfolio-item">
+          <li class="portfolio-card__item">
    
-            <a  class="portfolio-item-link"  href="#">
-              <div class="description-blok">
-            <img class="portfoli-image"
+            <a  class="portfolio-card__item-link"  href="#">
+              <div class="portfolio-card__description-blok">
+            <img class="portfolio-card__image"
               src="./images/portfolio/GrowingBusiness.jpg"
               alt="Growing Business"/>
-              <div class="description">
-                <p class="description-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+              <div class="portfolio-card__description">
+                <p class="portfolio-card__description-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
              </div>
              </div>
-            <div class="portfolio-item-title">
-            <h3 class="portfolio-product-name">Growing Business</h3>
-            <p class="portfolio-product">Додаток</p>
+            <div class="portfolio-card__item-title">
+            <h3 class="portfolio-card__product-name">Growing Business</h3>
+            <p class="portfolio-card__product">Додаток</p>
               </div>
             </a>
       
@@ -354,6 +358,7 @@
             </a>
         </li>
       </ul>
+      </div>
       </div>
 
         <!-- Footer form -->
