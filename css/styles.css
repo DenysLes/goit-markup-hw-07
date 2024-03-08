@@ -676,7 +676,7 @@ path {
   color: var(--secondary-text-color);
   letter-spacing: 0.42px;
 }
-.our-activity-title {
+.our-activity-images__title {
   font-family: var(--main-font);
   text-align: center;
 
@@ -690,21 +690,21 @@ path {
 }
 
 /* Activity images */
-.activity-images {
+.our-activity-images__images {
   display: flex;
   justify-content: center;
 }
-.img-box-activity {
+.our-activity-images__img-box {
   z-index: 1;
   position: relative;
 
   margin-right: 30px;
 }
 
-.img-box-activity:last-child {
+.our-activity-images__img-box:last-child {
   margin-right: 0px;
 }
-.our-activity-label {
+.our-activity-images__label {
   z-index: 1;
 
   position: absolute;
