@@ -561,7 +561,7 @@ path {
 
 /* Our activity */
 
-.our-activity-section {
+.our-activity {
   background: var(--main-bg-color);
   padding-top: 94px;
 }
@@ -572,7 +572,7 @@ path {
   justify-content: center;
   width: 1170px;
 }
-.our-activity-icon {
+.our-activity__icon-blok {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -585,15 +585,15 @@ path {
   fill: #212121;
 }
 /* ================== */
-.our-activity-list {
+.our-activity__list {
   display: flex;
 }
 
-.our-activity-items:not(:last-child) {
+.our-activity__items:not(:last-child) {
   margin-right: 30px;
 }
 
-.detail-list-item {
+.our-activity__detail-item {
   width: 270px;
   height: 16px;
   font-weight: 700;
@@ -604,7 +604,7 @@ path {
 
   margin-bottom: 10px;
 }
-.detail-text {
+.our-activity__detail-text {
   font-size: 14px;
   line-height: 1.71;
   width: 270px;
@@ -614,7 +614,7 @@ path {
   color: var(--secondary-text-color);
   letter-spacing: 0.42px;
 }
-.punctuality-list-item {
+.our-activity__punctuality-item {
   width: 270px;
   height: 16px;
   font-size: 14px;
@@ -625,7 +625,7 @@ path {
 
   margin-bottom: 10px;
 }
-.punctuality-text {
+.our-activity__punctuality-text {
   font-size: 14px;
   line-height: 1.71;
   width: 270px;
@@ -635,7 +635,7 @@ path {
   color: var(--secondary-text-color);
   letter-spacing: 0.42px;
 }
-.diligence-list-item {
+.our-activity__diligence-item {
   width: 270px;
   height: 16px;
   font-size: 14px;
@@ -646,7 +646,7 @@ path {
 
   margin-bottom: 10px;
 }
-.diligence-text {
+.our-activity__diligence-text {
   font-size: 14px;
   line-height: 1.71;
   width: 270px;
@@ -656,7 +656,7 @@ path {
   color: var(--secondary-text-color);
   letter-spacing: 0.42px;
 }
-.technologie-list-item {
+.our-activity__technologie-item {
   font-size: 14px;
   width: 270px;
   height: 16px;
@@ -667,7 +667,7 @@ path {
 
   margin-bottom: 10px;
 }
-.technologies-text {
+.our-activity__technologies-text {
   font-size: 14px;
   line-height: 1.71;
   width: 270px;
