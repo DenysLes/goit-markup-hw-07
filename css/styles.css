@@ -728,7 +728,7 @@ path {
 }
 
 /* Our team */
-.team {
+.our-team-section {
   padding-top: 94px;
 }
 
@@ -738,7 +738,7 @@ path {
 .team-proffesion {
   margin-bottom: 16px;
 }
-.team__titel {
+.our-team-title {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -747,12 +747,12 @@ path {
 
   margin-bottom: 50px;
 }
-.team__list {
+.our-team-list {
   display: flex;
 
   justify-content: center;
 }
-.team__members {
+.team-members {
   border-radius: 0 0 4px 4px;
   width: 270px;
 
@@ -762,18 +762,18 @@ path {
 
   margin-right: 30px;
 }
-.team__members-info {
+.team-members-info {
   padding-bottom: 30px;
   padding-top: 30px;
 }
-.team__members:last-child {
+.team-members:last-child {
   margin-right: 0;
 }
 
-.team {
+.our-team-section {
   background: var(--secondary-bg-color);
 }
-.team__product-designer-name {
+.product-designer-name {
   color: var(--main-text-color);
   text-align: center;
   font-size: 16px;
@@ -781,35 +781,35 @@ path {
   line-height: normal;
   letter-spacing: 0.48px;
 }
-.team__product-designer-profession {
+.product-designer-profession {
   color: var(--secondary-text-color);
   text-align: center;
   font-size: 16px;
   line-height: normal;
   letter-spacing: 0.48px;
 }
-.team__frontend-developer-name {
+.frontend-developer-name {
   text-align: center;
   font-size: 16px;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.48px;
 }
-.team__frontend-developer-profession {
+.frontend-developer-profession {
   color: var(--secondary-text-color);
   text-align: center;
   font-size: 16px;
   line-height: normal;
   letter-spacing: 0.48px;
 }
-.team__marketing-name {
+.marketing-name {
   text-align: center;
   font-size: 16px;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.48px;
 }
-.team__marketing-profession {
+.marketing-profession {
   color: var(--secondary-text-color);
   text-align: center;
   font-size: 16px;
@@ -817,14 +817,14 @@ path {
   letter-spacing: 0.48px;
 }
 
-.team__ul-designer-name {
+.ul-designer-name {
   text-align: center;
   font-size: 16px;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.48px;
 }
-.team__ul-designer-profession {
+.ul-designer-profession {
   color: var(--secondary-text-color);
   text-align: center;
 
@@ -833,7 +833,7 @@ path {
   letter-spacing: 0.48px;
 }
 /* social links */
-.team__social-link-list {
+.team-social-link-list {
   display: flex;
   justify-content: center;
 
@@ -844,15 +844,15 @@ path {
   margin-right: auto;
 }
 
-.team__social-link-item {
+.team-social-link-item {
   text-align: center;
 
   margin-right: 10px;
 }
-.team__social-link-item:last-child {
+.team-social-link-item:last-child {
   margin-right: 0;
 }
-.team__social-link {
+.social-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -863,21 +863,20 @@ path {
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team__social-link:hover,
-.team__social-link:focus {
+.social-link:hover,
+.social-link:focus {
   background-color: var(--accent-color);
 }
 
-.team__members-icon {
+.team-members-icon {
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team__social-link:hover .team__members-icon,
-.team__social-link:focus .team__members-icon {
+.social-link:hover .team-members-icon,
+.social-link:focus .team-members-icon {
   fill: #fff;
 }
-
 /* Regular customers  */
 .regular-customers {
   padding-top: 94px;
