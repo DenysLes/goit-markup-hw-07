@@ -728,7 +728,7 @@ path {
 }
 
 /* Our team */
-.our-team-section {
+.team {
   padding-top: 94px;
 }
 
@@ -738,7 +738,7 @@ path {
 .team-proffesion {
   margin-bottom: 16px;
 }
-.our-team-title {
+.team__titel {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -747,12 +747,12 @@ path {
 
   margin-bottom: 50px;
 }
-.our-team-list {
+.team__list {
   display: flex;
 
   justify-content: center;
 }
-.team-members {
+.team__members {
   border-radius: 0 0 4px 4px;
   width: 270px;
 
@@ -762,18 +762,18 @@ path {
 
   margin-right: 30px;
 }
-.team-members-info {
+.team__members-info {
   padding-bottom: 30px;
   padding-top: 30px;
 }
-.team-members:last-child {
+.team__members:last-child {
   margin-right: 0;
 }
 
-.our-team-section {
+.team {
   background: var(--secondary-bg-color);
 }
-.product-designer-name {
+.team__product-designer-name {
   color: var(--main-text-color);
   text-align: center;
   font-size: 16px;
@@ -781,35 +781,35 @@ path {
   line-height: normal;
   letter-spacing: 0.48px;
 }
-.product-designer-profession {
+.team__product-designer-profession {
   color: var(--secondary-text-color);
   text-align: center;
   font-size: 16px;
   line-height: normal;
   letter-spacing: 0.48px;
 }
-.frontend-developer-name {
+.team__frontend-developer-name {
   text-align: center;
   font-size: 16px;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.48px;
 }
-.frontend-developer-profession {
+.team__frontend-developer-profession {
   color: var(--secondary-text-color);
   text-align: center;
   font-size: 16px;
   line-height: normal;
   letter-spacing: 0.48px;
 }
-.marketing-name {
+.team__marketing-name {
   text-align: center;
   font-size: 16px;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.48px;
 }
-.marketing-profession {
+.team__marketing-profession {
   color: var(--secondary-text-color);
   text-align: center;
   font-size: 16px;
@@ -817,14 +817,14 @@ path {
   letter-spacing: 0.48px;
 }
 
-.ul-designer-name {
+.team__ul-designer-name {
   text-align: center;
   font-size: 16px;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.48px;
 }
-.ul-designer-profession {
+.team__ul-designer-profession {
   color: var(--secondary-text-color);
   text-align: center;
 
@@ -833,7 +833,7 @@ path {
   letter-spacing: 0.48px;
 }
 /* social links */
-.team-social-link-list {
+.team__social-link-list {
   display: flex;
   justify-content: center;
 
@@ -844,15 +844,15 @@ path {
   margin-right: auto;
 }
 
-.team-social-link-item {
+.team__social-link-item {
   text-align: center;
 
   margin-right: 10px;
 }
-.team-social-link-item:last-child {
+.team__social-link-item:last-child {
   margin-right: 0;
 }
-.social-link {
+.team__social-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -863,18 +863,18 @@ path {
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-link:hover,
-.social-link:focus {
+.team__social-link:hover,
+.team__social-link:focus {
   background-color: var(--accent-color);
 }
 
-.team-members-icon {
+.team__members-icon {
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-link:hover .team-members-icon,
-.social-link:focus .team-members-icon {
+.team__social-link:hover .team__members-icon,
+.team__social-link:focus .team__members-icon {
   fill: #fff;
 }
 
