@@ -1,0 +1,225 @@
+/* Hero form */
+
+.modal-form {
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    border-radius: 4px;
+    width: 528px;
+
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+        0 1px 3px 0 rgba(0, 0, 0, 0.12);
+    background: #fff;
+}
+
+.hero-form-titel {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 448px;
+    height: 23px;
+
+    margin-bottom: 12px;
+
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--main-text-color);
+}
+
+.hero-label {
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.01em;
+    color: var(--secondary-text-color);
+}
+
+/* ===================== */
+
+.hero-input-blok {
+    position: relative;
+
+    margin-bottom: 10px;
+    width: 448px;
+    height: 58px;
+}
+
+.hero-input {
+    outline: none;
+    width: 100%;
+    padding: 11px 0;
+    padding-left: 42px;
+
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-input:hover+.hero-icon,
+.hero-input:focus+.hero-icon {
+    fill: var(--accent-color);
+}
+
+.hero-input:focus {
+    border-color: var(--accent-color);
+}
+
+.hero-icon {
+    position: absolute;
+    top: 34px;
+    left: 12px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ======================== */
+.hero-textarea-blok {
+    margin-right: auto;
+    margin-left: auto;
+    /* margin-bottom: 20px; */
+    width: 448px;
+    /* height: 138px; */
+
+    margin-bottom: 20px;
+}
+
+.hero-textarea {
+    outline: none;
+    display: block;
+    padding: 12px 16px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    width: 100%;
+    height: 120px;
+
+    resize: none;
+    /* margin-bottom: 20px; */
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-textarea:focus {
+    border-color: var(--accent-color);
+}
+
+.textarea-label {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.01em;
+    color: #757575;
+}
+
+.hero-textarea::placeholder {
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.01em;
+    color: var(--secondary-text-color);
+}
+
+/* ++++++++++++++++++++++++++ */
+
+.hero-checkbox-input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+
+    /* appearance: none;
+  position: absolute; */
+}
+
+.hero-checkbox-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71429;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+
+    margin-bottom: 20px;
+}
+
+.hero-checkbox-label-text {
+    margin-left: 7px;
+}
+
+.hero-checkbox-accent {
+    margin-left: 4px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: var(--accent-color);
+}
+
+.hero-checkbox-icon {
+    display: flex;
+    align-items: center;
+
+    background-image: url(../images/icons/icon-check.svg);
+    background-size: contain;
+
+    width: 15px;
+    height: 14px;
+
+    border: 2px solid var(--dark-bg-color);
+    border-radius: 4px;
+    background-origin: border-box;
+    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-checkbox-input:checked+.hero-checkbox-icon {
+    border-color: var(--accent-color);
+    background-color: var(--accent-color);
+}
+
+.hero-checkbox-input:focus+.hero-checkbox-icon {
+    border-color: var(--accent-color);
+}
+
+/* +_+_+_+_++_+_++_+_++_+__++ */
+.hero-form-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    border: none;
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #2196f3;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #fff;
+
+    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-form-button:hover,
+.hero-form-button:focus {
+    background-color: #188ce8;
+    /* outline: none; */
+}
