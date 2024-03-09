@@ -1,4 +1,3 @@
-@charset "UTF-8";
 :root {
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
@@ -79,11 +78,13 @@ ul {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: var(--indent);
 }
 
 .grid-item {
-  -ms-flex-preferred-size: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
-      flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
-}/*# sourceMappingURL=main.css.map */
+  -ms-flex-preferred-size: calc(
+    (100% - var(--indent) * (var(--items) - 1)) / var(--items)
+  );
+  flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+} /*# sourceMappingURL=main.css.map */
