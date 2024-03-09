@@ -363,7 +363,9 @@ path {
   background: #fff;
 }
 
-.form__form-titel {
+.form__titel {
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   justify-content: center;
   align-content: center;
