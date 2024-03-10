@@ -927,7 +927,7 @@ path {
 }
 
 /* social links */
-.team-social-link__list {
+.team-social-link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
