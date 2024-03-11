@@ -40,8 +40,8 @@
     background-color: rgba(33, 150, 243, 0.9);
 }
 
-.portfolio-card__item-link:hover .portfolio-card__description,
-.portfolio-card__item-link:focus .portfolio-card__description {
+&:hover .portfolio-card__description,
+&:focus .portfolio-card__description {
     transform: translateY(0);
     opacity: 1;
     visibility: 1;
