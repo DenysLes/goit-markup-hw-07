@@ -44,6 +44,11 @@
 
 .modal-wrapper.is-hidden {
     transition: transform 300ms ease-in-out 200ms, opacity 300ms ease-in-out 200ms;
+}.modal-icon {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    fill: #000;
 }
 
 .modal-btn {
@@ -63,19 +68,14 @@
     height: 30px;
 }
 
-.modal-icon {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    fill: #000;
-}
+
 
 /* .modal-btn:hover,
 .modal-btn:focus {
   border-color: var(--accent-color);
 } */
-.modal-btn:hover path,
-.modal-btn:focus path {
+&:hover path,
+&:focus path {
     fill: var(--accent-color);
 }
 
