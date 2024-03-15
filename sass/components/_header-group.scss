@@ -7,10 +7,10 @@
 
 .header__group-link {
     margin-right: 50px;
-}
 
-.header__group-link:last-child {
-    margin-right: 0;
+    &:last-child {
+        margin-right: 0;
+    }
 }
 
 .header__link-mail {
@@ -40,10 +40,10 @@
 
 .header__group-link {
     margin-right: 50px;
-}
 
-.header__group-link:last-child {
-    margin-right: 0;
+    &:last-child {
+        margin-right: 0;
+    }
 }
 
 .header__link-mail {
@@ -53,6 +53,11 @@
     font-weight: 500;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
+
+    &-mail:hover,
+    &-mail:focus {
+        color: var(--accent-color);
+    }
 }
 
 .header__link-phone {
@@ -62,13 +67,11 @@
     font-weight: 500;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
+
+    &-phone:hover,
+    &-phone:focus {
+        color: var(--accent-color);
+    }
 }
 
-&-mail:hover,
-.header__link-mail:focus {
-    color: var(--accent-color);
-}
-&-phone:hover,
-.header__link-phone:focus {
-    color: var(--accent-color);
-}
+
