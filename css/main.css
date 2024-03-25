@@ -711,7 +711,7 @@ path {
 }
 
 /* ================== */
-.our-activity__list-item {
+.our-activity__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1212,6 +1212,28 @@ path {
 }
 .footer-link__footer-social-link-item:last-child {
   margin-right: 0;
+}
+
+.footer-link__footer-social-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 44px;
+  height: 44px;
+  fill: var(--main-bg-color);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  -webkit-transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-link__footer-social-link:hover, .footer-link__footer-social-link:focus {
+  background-color: var(--accent-color);
 }
 
 .footer-form {
